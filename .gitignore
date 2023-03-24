@@ -1,0 +1,14 @@
+# Python #
+*.pyc
+__pycache__/
+venv/
+*.egg-info/
+dist/
+build/
+*.log
+
+# Flask #
+instance/
+*.pyc
+*.swp
+*.swo
