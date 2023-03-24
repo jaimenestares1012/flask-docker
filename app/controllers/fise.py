@@ -6,6 +6,7 @@ controlador2_bp = Blueprint('controlador2', __name__)
 
 @test_fise.route('/')
 def index_test():
+    print("index_test")
     return {"codRes":"00", "detalles":"ok"}
 
 
