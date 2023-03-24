@@ -1,7 +1,8 @@
 from pymongo import MongoClient
 
-# client = MongoClient("mongodb://10.3.3.122:27017")
-client = MongoClient("localhost")
+client = MongoClient("mongodb+srv://user_jaime:XhA7pqTDWKfQy6Nh@micluster.pns9q58.mongodb.net")
+# client = MongoClient("localhost")
+
 
 db = client.get_database("tesJaime")
 
